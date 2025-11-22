@@ -211,7 +211,7 @@ accessibility-everywhere/
 
 ---
 
-## 🚦 Quick Start
+## 🚦 Quick Start & Usage
 
 ### Run Full Stack Locally
 
