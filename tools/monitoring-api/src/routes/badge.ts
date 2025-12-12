@@ -66,7 +66,7 @@ function generateBadgeSVG(score: number): string {
   }[grade];
 
   return `
-    <svg xmlns="http://www.w3.org/2000/svg" width="160" height="28" role="img" aria-label="Accessibility: ${grade}">
+    <svg xmlns="https://www.w3.org/2000/svg" width="160" height="28" role="img" aria-label="Accessibility: ${grade}">
       <title>Accessibility Score: ${score} (Grade ${grade})</title>
       <linearGradient id="s" x2="0" y2="100%">
         <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
