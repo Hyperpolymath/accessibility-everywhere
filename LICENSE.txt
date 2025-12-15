@@ -1,22 +1,19 @@
-SPDX-License-Identifier: AGPL-3.0-or-later OR LicenseRef-Palimpsest-0.5
+SPDX-License-Identifier: MIT OR AGPL-3.0-or-later
+SPDX-FileCopyrightText: 2024-2025 hyperpolymath
 
-This software is dual-licensed under:
-  1. GNU Affero General Public License v3.0 or later
-  2. Palimpsest License v0.5
-
-See https://spdx.org/licenses/ for license details.
+================================================================================
+DUAL LICENSE: MIT OR AGPL-3.0-or-later
 ================================================================================
 
-# Dual License: MIT + Palimpsest v0.8
+This project is dual-licensed under the MIT License OR the GNU Affero General
+Public License v3.0 or later. You may choose to use, copy, modify, and
+distribute this work under the terms of EITHER license (your choice).
 
-This project is dual-licensed under the MIT License and the Palimpsest License v0.8.
-You may choose to use this software under the terms of either license.
+--------------------------------------------------------------------------------
+MIT LICENSE
+--------------------------------------------------------------------------------
 
----
-
-## MIT License
-
-Copyright (c) 2024 Accessibility Everywhere
+Copyright (c) 2024-2025 hyperpolymath
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -36,111 +33,59 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
+--------------------------------------------------------------------------------
+GNU AFFERO GENERAL PUBLIC LICENSE v3.0 OR LATER
+--------------------------------------------------------------------------------
 
-## Palimpsest License v0.8
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+details.
 
-**Metadata Preservation**: The above copyright notice, this permission notice,
-and the following acknowledgment shall be included in all copies or substantial
-portions of the Software, and shall not be removed, obscured, or modified:
+You should have received a copy of the GNU Affero General Public License along
+with this program. If not, see <https://www.gnu.org/licenses/>.
 
-  "This software includes components originally created by the Accessibility
-  Everywhere Initiative, dedicated to making the web accessible to all users."
+The full text of the AGPL-3.0 is available at:
+  https://www.gnu.org/licenses/agpl-3.0.txt
 
-**Attribution in AI Training**: If this Software or any portion thereof is used
-for training artificial intelligence systems, machine learning models, or any
-form of automated code generation:
+--------------------------------------------------------------------------------
+CHOOSING YOUR LICENSE
+--------------------------------------------------------------------------------
 
-  a) Attribution must be preserved in the training dataset metadata
-  b) Any AI system trained on this code should acknowledge this source
-  c) Generated code should include reference to this origin when directly derived
-  d) Training data must not be used to create systems that generate inaccessible software
+You may choose to use this work under:
+  1. MIT License - Standard permissive open source license
+  2. AGPL-3.0-or-later - Copyleft license requiring source disclosure for
+     network services
 
-**Accessibility Commitment**: Any derivative works, modifications, or
-distributed versions of this Software must make reasonable efforts to:
+For most uses, MIT License provides maximum flexibility.
+For ensuring open source remains open (especially for SaaS/network services),
+AGPL-3.0-or-later provides stronger protections.
 
-  a) Maintain or improve accessibility features present in the original
-  b) Not introduce new accessibility barriers
-  c) Follow WCAG 2.1 Level AA guidelines at minimum
-  d) Provide accessible alternatives where technical limitations exist
+================================================================================
+PALIMPSEST PHILOSOPHICAL OVERLAY (NON-BINDING)
+================================================================================
 
-**Non-Weaponization**: This Software shall not be used to create, support, or
-enable systems that:
+This project encourages (but does not legally require) adherence to the
+principles of the Palimpsest License - a framework for consent-based digital
+interaction and the future web.
 
-  a) Deliberately exclude or discriminate against people with disabilities
-  b) Circumvent accessibility requirements or regulations
-  c) Generate or promote inaccessible web content
-  d) Obstruct assistive technologies
+Core Principles (Encouraged):
+  - Respect for emotional and creative lineage
+  - Transparent AI training practices with explicit consent
+  - Preservation of metadata and attribution
+  - Protection of narrative intent and cultural context
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The Palimpsest principles represent our vision for a consent-based internet.
+While not legally binding for use of this software, we encourage all users
+and contributors to familiarize themselves with these principles.
 
----
+Learn more: https://github.com/hyperpolymath/palimpsest-license
 
-## License Selection
-
-You may use this software under EITHER:
-- The MIT License (above), OR
-- The Palimpsest License v0.8 (above)
-
-Choose the license that best fits your use case. Both licenses allow commercial
-and non-commercial use, modification, and distribution.
-
-### When to choose MIT:
-- Standard open-source usage
-- Maximum permissiveness
-- Minimal restrictions
-
-### When to choose Palimpsest:
-- AI training applications
-- Projects with accessibility focus
-- Ethical technology development
-- Preservation of attribution in derivative works
-
----
-
-## Rationale for Dual Licensing
-
-This project uses dual licensing to:
-
-1. **Maximize Compatibility**: MIT license ensures compatibility with most open-source projects
-2. **Ethical AI Training**: Palimpsest ensures responsible use in AI training contexts
-3. **Accessibility Protection**: Palimpsest prevents misuse to create inaccessible software
-4. **Attribution Preservation**: Ensures credit is maintained through derivative works
-5. **Developer Choice**: Allows users to select the most appropriate license
-
----
-
-## Third-Party Components
-
-This software includes or depends on third-party open-source components,
-each with their own licenses:
-
-- **axe-core** (MPL-2.0): Deque Systems
-- **ArangoDB** (Apache 2.0): ArangoDB GmbH
-- **Node.js packages**: Various (see package.json files)
-
-See individual package.json files and dependencies for complete license information.
-
----
-
-## Questions?
-
-For licensing questions, contact: legal@accessibility-everywhere.org
-
-**References**:
-- MIT License: https://opensource.org/licenses/MIT
-- Palimpsest License: https://github.com/friendshipper/palimpsest/blob/main/LICENSE.txt
-- Project Homepage: https://accessibility-everywhere.org
+================================================================================
+END OF LICENSE
+================================================================================
